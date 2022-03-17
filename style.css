@@ -28,7 +28,7 @@ body{
 #container{
     display:flex;
     justify-content: right;
-  
+    overflow:hidden;
 }
 #container li{
     list-style-type: none;
@@ -65,10 +65,14 @@ body{
     justify-content: center;
     margin-top: 50px;
 }
-section{
+.container p{
+    overflow:hidden;
+}
+ .container  section{
     border:2px solid black;
     color:#000;
     background-color: #eef;
+    overflow:hidden;
    
 }
 @media  screen and (max-width:678px) and (min-width:200px) {

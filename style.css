@@ -11,7 +11,7 @@ body{
    
     
 }
-.container{
+#container1{
     display:grid;
     grid-template-columns: 20% 80%;
     height:15vh;
@@ -52,5 +52,34 @@ body{
         /* padding-top:20px; */
         
         /* margin:8px */
+    }
+}
+
+/* main styling start */
+.container{
+    display:grid;
+    grid-template-columns:250px 250px 250px 250px;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+section{
+    border:2px solid black;
+    color:#000;
+    background-color: #eef;
+   
+}
+@media  screen and (max-width:678px) {
+    .container{
+        display:grid;
+        grid-template-columns:45vw 45vw;
+        grid-column-gap: 10px;
+        grid-row-gap:10px;
+        justify-content: center;
+    }
+    section{
+        border:2px solid black;
+       
     }
 }

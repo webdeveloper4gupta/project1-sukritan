@@ -1,0 +1,40 @@
+#am1 h1{
+    color:black;
+    text-align:center;
+    margin-top:20px;
+}
+main div form{
+    color:black;
+     width:40vw;
+     text-align:center;
+     
+}
+form input{
+    
+    background-color:antiquewhite;
+}
+form textarea{
+    background-color:antiquewhite;
+}
+.container{
+    display:grid;
+    grid-template-columns: 40vw 40vw;
+
+}
+#a1 p{
+    color:black;
+    font-size:30px;
+}
+#a2{
+    height:40vh;
+    background-image: url("contactimage.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media  screen and (max-width:600px) {
+    .container{
+        display:grid;
+        grid-template-columns: 90vw ;
+    
+    }
+}

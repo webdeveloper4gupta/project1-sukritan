@@ -1,0 +1,28 @@
+#container5{
+    display:grid;
+    grid-template-columns: 40vw 40vw;
+  
+    align-items: center;
+    margin-bottom:40vh;
+    margin-top:20vh;
+    
+}
+#a2{
+    text-align: center;
+    color:black;
+}
+#a2 h1{
+    font-size:45px;
+}
+#a2 p{
+    font-size:23px;
+}
+@media screen and (max-width:600px) {
+    #container5{
+        display:grid;
+        grid-template-columns: 80vw;
+       
+        align-items: center;
+        
+    }
+}

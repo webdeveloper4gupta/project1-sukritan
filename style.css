@@ -71,31 +71,36 @@ section{
     background-color: #eef;
    
 }
-@media  screen and (max-width:678px) {
+@media  screen and (max-width:678px) and (min-width:200px) {
     .container{
         display:grid;
         grid-template-columns:45vw 45vw;
         grid-column-gap: 10px;
         grid-row-gap:10px;
         justify-content: center;
+        overflow:hidden;    
     }
     section{
         border:2px solid black;
-       
+        overflow:hidden;   
     }
     .col2 h2{
         font-size: 21px;
+        overflow:hidden;   
     }
     #sukri{
         width:40px;
         height:30px;
+        overflow:hidden;   
     }
 }
 #mahajan1{
     display:none;
+    overflow:hidden;   
 }
 #mahajan2{
     display:none;
+    overflow:hidden;   
 }
 #mahajan3{
     display:none;

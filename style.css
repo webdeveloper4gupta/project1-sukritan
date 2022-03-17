@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color:grey;
+    background-color:rgb(218, 210, 210);
     color:floralwhite;
 }
 #aman1{
@@ -36,6 +36,7 @@ body{
     
     /* margin:8px */
 }
+
 #container li a{
     text-decoration: none;
     text-transform: uppercase;
@@ -58,8 +59,8 @@ body{
 /* main styling start */
 .container{
     display:grid;
-    grid-template-columns:250px 250px 250px 250px;
-    grid-column-gap: 10px;
+    grid-template-columns:250px 250px 250px ;
+    grid-column-gap: 30px;
     grid-row-gap:10px;
     justify-content: center;
     margin-top: 50px;
@@ -82,4 +83,63 @@ section{
         border:2px solid black;
        
     }
+    .col2 h2{
+        font-size: 21px;
+    }
+    #sukri{
+        width:40px;
+        height:30px;
+    }
+}
+#mahajan1{
+    display:none;
+}
+#mahajan2{
+    display:none;
+}
+#mahajan3{
+    display:none;
+}
+button{
+    display:block;
+    margin-left:50vw;
+    width:80px;
+    height:40px;
+    color:aliceblue;
+    background-color: green;
+    margin-top:20px;
+}
+
+
+/* footer styling */
+footer{
+   
+    background-color: rgb(41, 38, 38);
+    
+}
+.container3{
+    display:grid;
+    grid-template-columns: 30% 30% 30%;
+    margin-top:100px;
+    padding-top:5px;
+    justify-content: center;
+    
+}
+
+.container3 li{
+    list-style-type: none;
+   
+}
+.container3 li a{
+    text-decoration: none;
+    color:floralwhite;
+   
+}
+.amu1{
+    margin-top:5px;
+    margin-bottom:5px;
+
+}
+#sukr{
+    font-size:20px;
 }

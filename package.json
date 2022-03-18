@@ -1,0 +1,19 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "\"this is my project 1 responsive website\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdeveloper4gupta/project1-sukritan.git"
+  },
+  "author": "Sukritan gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webdeveloper4gupta/project1-sukritan/issues"
+  },
+  "homepage": "https://github.com/webdeveloper4gupta/project1-sukritan#readme"
+}
